@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'home_screen.dart'; // استبدل بالصفحة الرئيسية لتطبيقك
+import '../widgets/bottom_navigation_bar.dart';
+
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -17,11 +18,11 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
     super.initState();
     _controller = AnimationController(vsync: this);
 
-    // الانتقال إلى الصفحة الرئيسية بعد 3 ثواني
-    Future.delayed(const Duration(seconds: 6), () {
+    // الانتقال إلى MainApp بعد 3 ثواني
+    Future.delayed(const Duration(seconds: 3), () {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => const HomeScreen()),
+        MaterialPageRoute(builder: (context) => const BottomNavBar()),
       );
     });
   }
@@ -40,9 +41,9 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // أنيميشن Lottie (يمكنك تحميل ملف من https://lottiefiles.com/)
+            // أنيميشن Lottie
             Lottie.asset(
-              'assets/animations/coupon_animation.json', // مسار ملف الأنيميشن
+              'assets/animations/coupon_animation.json',
               controller: _controller,
               height: 200,
               onLoaded: (composition) {

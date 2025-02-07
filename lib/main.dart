@@ -1,12 +1,13 @@
-// ملف main.dart
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:untitled2/screens/splash_screen.dart';
-import 'screens/home_screen.dart';
+import 'package:untitled2/widgets/bottom_navigation_bar.dart';
+import 'firebase_options.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(const MyApp());
 }
 
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         fontFamily: 'Cairo',
       ),
-      home: const SplashScreen(),
+      home: const BottomNavBar(),
       debugShowCheckedModeBanner: false,
     );
   }

@@ -16,7 +16,7 @@ class CouponCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
 
-      margin: const EdgeInsets.all(8),
+      margin: const EdgeInsets.all(12),
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(15),
 
@@ -26,8 +26,8 @@ class CouponCard extends StatelessWidget {
       child: Container(
         decoration: BoxDecoration(
           gradient: LinearGradient(colors:  [
-            Colors.purple.withOpacity(0.3),
-            Colors.cyan.withOpacity(0.2),
+            Colors.white,
+            Colors.white,
 
           ],
             begin: Alignment.topLeft,
@@ -35,7 +35,7 @@ class CouponCard extends StatelessWidget {
           ),
           borderRadius: BorderRadius.circular(15),
           border: Border.all(
-            color: Colors.white.withOpacity(0.3),
+            color: Colors.white,
             width: 1,
           ),
           boxShadow: [
