@@ -1,0 +1,36 @@
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+buildscript {
+    repositories {
+        google()  // إضافة مستودع Google
+        mavenCentral()  // إضافة مستودع Maven Central
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.0.4'  // إصدار Gradle
+        classpath 'com.google.gms:google-services:4.4.2'  // حزمة Google Services
+    }
+}
+
+rootProject.buildDir = "../build"
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(":app")
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
+
+buildscript {
+    dependencies {
+        // إضافة هذا السطر
+        classpath 'com.google.gms:google-services:4.4.2'
+    }
+}

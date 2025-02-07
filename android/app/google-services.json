@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "314843853869",
+    "project_id": "coupon-d52b2",
+    "storage_bucket": "coupon-d52b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314843853869:android:67f2df333de0d21d4f74a4",
+        "android_client_info": {
+          "package_name": "com.example.coupon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314843853869-sfpuv7d5vdkjaahjnnt7ueo27rv1e96m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsK3Pi9_3tsBwVJRyAGL2_zeOxUpLXYJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314843853869-sfpuv7d5vdkjaahjnnt7ueo27rv1e96m.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "314843853869-9ei03c2d3eab0hmst74kdab812p5s5kd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.coupon"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314843853869:android:cfe9c1e96bb7c3794f74a4",
+        "android_client_info": {
+          "package_name": "com.example.untitled"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314843853869-sfpuv7d5vdkjaahjnnt7ueo27rv1e96m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsK3Pi9_3tsBwVJRyAGL2_zeOxUpLXYJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314843853869-sfpuv7d5vdkjaahjnnt7ueo27rv1e96m.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "314843853869-9ei03c2d3eab0hmst74kdab812p5s5kd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.coupon"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314843853869:android:54efc4aee2c7cb644f74a4",
+        "android_client_info": {
+          "package_name": "com.example.untitled2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314843853869-sfpuv7d5vdkjaahjnnt7ueo27rv1e96m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsK3Pi9_3tsBwVJRyAGL2_zeOxUpLXYJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314843853869-sfpuv7d5vdkjaahjnnt7ueo27rv1e96m.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "314843853869-9ei03c2d3eab0hmst74kdab812p5s5kd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.coupon"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
